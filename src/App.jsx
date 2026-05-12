@@ -242,7 +242,7 @@ function CalendarPage({ plan }) {
   return (
     <div style={{ padding: "0 16px 100px" }}>
       <div style={{ paddingTop: 28, paddingBottom: 20 }}>
-        <h1 style={{ fontSize: 28, fontWeight: 800, margin: 0, fontFamily: "'DM Serif Display', Georgia, serif", letterSpacing: "-0.01em" }}>Calendrier</h1>
+        <h1 style={{ fontSize: 28, fontWeight: 800, margin: 0, fontFamily: "Georgia, Georgia, Georgia", letterSpacing: "-0.01em" }}>Calendrier</h1>
       </div>
 
       {/* Month nav */}
@@ -325,7 +325,7 @@ function StravaPage({ strava }) {
       <div style={{ paddingTop: 28, paddingBottom: 20 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <div style={{ width: 36, height: 36, background: "#FC4C02", borderRadius: 10, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 20 }}>🟠</div>
-          <h1 style={{ fontSize: 28, fontWeight: 800, margin: 0, fontFamily: "'DM Serif Display', Georgia, serif", letterSpacing: "-0.01em" }}>Strava</h1>
+          <h1 style={{ fontSize: 28, fontWeight: 800, margin: 0, fontFamily: "Georgia, Georgia, Georgia", letterSpacing: "-0.01em" }}>Strava</h1>
         </div>
         <div style={{ fontSize: 13, color: "#888", marginTop: 6 }}>Synchronisé il y a 3 min</div>
       </div>
@@ -380,7 +380,7 @@ function DashboardPage({ strava, plan }) {
   return (
     <div style={{ padding: "0 16px 100px" }}>
       <div style={{ paddingTop: 28, paddingBottom: 20 }}>
-        <h1 style={{ fontSize: 28, fontWeight: 800, margin: 0, fontFamily: "'DM Serif Display', Georgia, serif", letterSpacing: "-0.01em" }}>Dashboard</h1>
+        <h1 style={{ fontSize: 28, fontWeight: 800, margin: 0, fontFamily: "Georgia, Georgia, Georgia", letterSpacing: "-0.01em" }}>Dashboard</h1>
         <div style={{ fontSize: 13, color: "#888", marginTop: 4 }}>Semaine en cours · 7 jours glissants</div>
       </div>
 
@@ -394,7 +394,7 @@ function DashboardPage({ strava, plan }) {
             <div style={{ fontSize: 11, color: "#FF6B35", textTransform: "uppercase", letterSpacing: "0.08em", fontWeight: 700 }}>Objectif principal</div>
             <div style={{ fontSize: 16, fontWeight: 800, color: "#fff", marginTop: 3 }}>Trail 50km — Automne 2026</div>
           </div>
-          <div style={{ fontSize: 28, fontWeight: 400, color: "#FF6B35", fontFamily: "'DM Serif Display', Georgia, serif" }}>{goalProgress}%</div>
+          <div style={{ fontSize: 28, fontWeight: 400, color: "#FF6B35", fontFamily: "Georgia, Georgia, Georgia" }}>{goalProgress}%</div>
         </div>
         <div style={{ background: "rgba(255,255,255,0.08)", borderRadius: 8, height: 8, overflow: "hidden" }}>
           <div style={{ width: `${goalProgress}%`, height: "100%", background: "linear-gradient(90deg, #FF6B35, #FF8C5A)", borderRadius: 8, transition: "width 1s ease" }} />
